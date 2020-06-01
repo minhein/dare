@@ -29,7 +29,6 @@ $(function () {
 })
 export default {
     name: 'SiteHeader',
-    el: '#mobile-menu',
     data () {
         return {
             toggle: true

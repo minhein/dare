@@ -13,7 +13,6 @@ export default {
         Accordion
     }
 }
-
 </script>
 
 <style scope lang='sass'>

@@ -43,6 +43,8 @@ export default {
         max-width: 775px
         margin: 60px auto
         padding: 30px
+        position: relative
+        z-index: 1
 
         hr
           border: 0px
