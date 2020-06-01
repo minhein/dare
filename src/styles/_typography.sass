@@ -1,0 +1,47 @@
+body
+    line-height: $base-line-height
+
+    *
+        box-sizing: border-box
+
+sup,
+sub
+    vertical-align: baseline
+    position: relative
+    font-size: 0.5em
+
+sup
+    top: -0.8em
+
+sub
+    bottom: -0.2em
+
+h1,
+h2,
+h3,
+h4,
+p
+    margin: 0
+
+h1
+    text-align: center
+    font-size: 40px
+    text-shadow: 2px 2px 6px rgba(#000, 0.7)
+    letter-spacing: normal
+
+h2
+    color: #fff
+    font-size: 45px
+    padding: 10px 20px
+
+h3
+    font-size: 28px
+
+    &.grey
+        color: #595959
+
+h4
+    font-size: 26px
+
+    + *
+        margin-top: $spacing-small / 4
