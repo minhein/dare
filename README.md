@@ -9,4 +9,6 @@ Basic Rules
 * use
 
 # Run the application
-`npm run serve`
+* step 1 - `npm install`
+* step 2 - `npm run serve`
+* step 3 - visit localhost which you will get it after `npm run serve`
